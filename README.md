@@ -5,17 +5,17 @@
 
 The BrightTV project focuses on analysing viewership and user profile data to generate business insights that support strategic decision-making.
 
-The goal of this project is to transform raw data into meaningful insights that can help improve customer engagement, content strategy, and overall platform performance.
+The objective is to transform raw data into meaningful insights that improve customer engagement, content performance, and overall platform growth.
 
 ---
 
 ## 🎯 Objectives
 
 * Understand user viewing behaviour
-* Identify high-value (VIP) customers
+* Identify high-value (VIP) users
 * Analyse channel performance
-* Segment users based on demographics and engagement
-* Provide insights for business growth and decision-making
+* Segment customers based on demographics and engagement
+* Support executive decision-making with data insights
 
 ---
 
@@ -23,123 +23,125 @@ The goal of this project is to transform raw data into meaningful insights that 
 
 The project uses two main datasets:
 
-1. **Viewership Data**
+### 1. Viewership Data
 
-   * UserID
-   * Channel
-   * RecordDate
-   * Duration
+* UserID
+* Channel
+* RecordDate
+* Duration
 
-2. **User Profile Data**
+### 2. User Profile Data
 
-   * UserID
-   * Age
-   * Gender
-   * Location
+* UserID
+* Age
+* Gender
+* Location
 
 ---
 
-## ⚙️ Data Processing
+## ⚙️ Tools & Technologies
 
-The data is processed using SQL and includes:
+This project was developed using:
 
-* Data cleaning and transformation
-* Joining datasets using UserID
-* Handling missing values
-* Creating calculated fields using CASE statements
+* **Databricks** – Data processing, SQL analysis, and data modelling
+* **Excel** – Data preparation and validation
+* **Boardmix** – Mind mapping and idea structuring for business processes
+* **PowerPoint** – Executive presentation and reporting
+
+---
+
+## 🔄 Data Processing Approach
+
+* Cleaned and transformed raw data in Databricks
+* Joined datasets using UserID
+* Applied CASE statements to create business logic
+* Created a single enriched dataset for reporting
+* Validated outputs using Excel
 
 ---
 
 ## 🧠 Key Features & Logic
 
-### 1. User Segmentation
+### 🔹 User Segmentation
 
-Users are grouped into:
+Users are classified into:
 
-* VIP
-* Loyal
-* Casual
-
-Based on total viewing time.
+* VIP (high-value users)
+* Loyal users
+* Casual users
 
 ---
 
-### 2. Engagement Analysis
+### 🔹 Engagement Analysis
 
-Users are classified as:
-
-* Low Engagement
-* Medium Engagement
-* High Engagement
+* Low engagement
+* Medium engagement
+* High engagement
 
 ---
 
-### 3. Demographic Analysis
+### 🔹 Demographic Insights
 
-* Age groups (e.g. 18–24, 25–34, etc.)
-* Gender distribution
-* Location-based insights
+* Age group segmentation
+* Gender analysis
+* Location-based performance
 
 ---
 
-### 4. Business Insights
+### 🔹 Business Insights Generated
 
-The project generates insights such as:
-
+* Channel market share
 * Top-performing channels
-* Market share by channel
-* High-value users driving engagement
-* Viewing trends over time
-* Weekday vs weekend behaviour
+* High-value customer contribution
+* Viewing behaviour trends (monthly, weekday vs weekend)
+* Customer engagement patterns
 
 ---
 
 ## 📊 Output
 
-The final output is a **single enriched dataset** that can be used in:
+The final output is a **single enriched dataset** used to build:
 
-* Power BI
-* Tableau
-* Excel dashboards
-
-This dataset supports:
-
-* KPI dashboards
-* Executive reporting
-* Data-driven decision-making
-
----
-
-## 🚀 Tools & Technologies
-
-* SQL (data transformation and analysis)
-* Excel / Data files (source data)
-* BI Tools (Power BI / Tableau)
+* Executive dashboards
+* KPI reports
+* Business presentations
 
 ---
 
 ## 💡 Business Value
 
-This project helps BrightTV to:
+This project enables BrightTV to:
 
-* Improve customer retention
-* Identify growth opportunities
-* Optimise content strategy
-* Support executive-level decisions with data
+* Improve customer retention strategies
+* Identify revenue-driving users
+* Optimise content and channel performance
+* Make data-driven executive decisions
+
+---
+
+## 📈 Project Workflow
+
+1. Data collection (Excel files)
+2. Data processing (Databricks SQL)
+3. Data modelling and enrichment
+4. Insight generation
+5. Mind mapping (Boardmix) for strategy alignment
+6. Presentation of insights (PowerPoint)
 
 ---
 
 ## 👤 Author
 
-Developed by: *[Your Name]*
-Role: Data Analyst / Lean Practitioner
+Developed by: Lastana Musekwa*
+Role: Business Coarch Lean Practitioner
 
 ---
 
-## 📌 Future Improvements
+## 🚀 Future Improvements
 
-* Add real-time data integration
-* Build automated dashboards
-* Include predictive analytics (user churn, recommendations)
+* Real-time data integration
+* Interactive dashboards (Power BI)
+* Predictive analytics (user behaviour, churn analysis)
 
 ---
+
