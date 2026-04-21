@@ -6,6 +6,8 @@ The BrightTV project focuses on analysing viewership and user profile data to ge
 
 The objective is to transform raw data into meaningful insights that improve customer engagement, content performance, and overall platform growth.
 
+##Lovable-AI Dashbaord https://lovable.dev/projects/854e6da8-35f4-419b-b75b-b970e7383c33
+
 ---
 
 ## Objectives
